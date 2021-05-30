@@ -1,0 +1,21 @@
+
+.dimension {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.dimension h2 {
+  margin: 25px;
+}
+
+.locationsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

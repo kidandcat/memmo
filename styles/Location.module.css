@@ -1,0 +1,43 @@
+.card {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 7px;
+}
+
+.locationContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.stats h4 {
+  color: rgb(155, 155, 155);
+  margin: 0 10px 0 0;
+  font-size: 0.9rem;
+}
+
+.stats h5 {
+  color: white;
+  margin: 0 30px 0 0;
+  font-size: 0.9rem;
+}

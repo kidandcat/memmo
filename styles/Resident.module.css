@@ -1,0 +1,40 @@
+.profile {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile h1 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  margin: 5px;
+}
+
+.profile img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  border-radius: 7px;
+  padding: 7px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+.data h5 {
+  font-size: 0.6rem;
+  margin: 0;
+  padding: 0;
+  margin: 5px;
+}
